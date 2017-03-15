@@ -1,0 +1,22 @@
+# Uncomment this line to define a global platform for your project
+platform :ios, '8.0'
+# Uncomment this line if you're using Swift
+use_frameworks!
+
+target 'eduku' do
+pod 'Parse'
+pod 'M13ProgressSuite'
+pod 'Dodo'
+pod 'ParseFacebookUtilsV4'
+pod 'IQKeyboardManagerSwift'
+pod 'QRCodeReader.swift'
+end
+
+target 'edukuTests' do
+
+end
+
+target 'edukuUITests' do
+
+end
+

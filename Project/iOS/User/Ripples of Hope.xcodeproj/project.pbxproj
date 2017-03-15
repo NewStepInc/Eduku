@@ -1,0 +1,871 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7006CEBE1C802BBA003A8C7D /* img_none.png in Resources */ = {isa = PBXBuildFile; fileRef = 7006CEBD1C802BBA003A8C7D /* img_none.png */; };
+		700F7C511C7893EE008D046F /* CustomImageFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 700F7C501C7893EE008D046F /* CustomImageFlowLayout.swift */; };
+		700F7C531C7895C3008D046F /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 700F7C521C7895C3008D046F /* ImageCollectionViewCell.swift */; };
+		70106E021C6F0C5000CE1707 /* RippleLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70106E011C6F0C5000CE1707 /* RippleLog.swift */; };
+		70106E041C6F1D6F00CE1707 /* IndividualController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70106E031C6F1D6F00CE1707 /* IndividualController.swift */; };
+		701561BC1C6A5A58007B7551 /* SignupController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701561BB1C6A5A58007B7551 /* SignupController.swift */; };
+		702D846B1C6B183600AE33B6 /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702D846A1C6B183600AE33B6 /* UIHelper.swift */; };
+		702D846D1C6B18D800AE33B6 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702D846C1C6B18D800AE33B6 /* Config.swift */; };
+		702D846F1C6B1C4900AE33B6 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702D846E1C6B1C4900AE33B6 /* Global.swift */; };
+		702D84711C6B1CAD00AE33B6 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702D84701C6B1CAD00AE33B6 /* User.swift */; };
+		7038152C1C64C25200A46674 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7038152B1C64C25200A46674 /* AppDelegate.swift */; };
+		7038152E1C64C25200A46674 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7038152D1C64C25200A46674 /* ViewController.swift */; };
+		703815311C64C25200A46674 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7038152F1C64C25200A46674 /* Main.storyboard */; };
+		703815361C64C25200A46674 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 703815341C64C25200A46674 /* LaunchScreen.storyboard */; };
+		703815411C64C25200A46674 /* edukuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 703815401C64C25200A46674 /* edukuTests.swift */; };
+		7038154C1C64C25200A46674 /* edukuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7038154B1C64C25200A46674 /* edukuUITests.swift */; };
+		703ACBC01C77938900E4583C /* arrow_back_blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 703ACBA41C77938900E4583C /* arrow_back_blue.png */; };
+		703ACBC11C77938900E4583C /* arrow_back.png in Resources */ = {isa = PBXBuildFile; fileRef = 703ACBA51C77938900E4583C /* arrow_back.png */; };
+		703ACBC21C77938900E4583C /* btn_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 703ACBA61C77938900E4583C /* btn_arrow.png */; };
+		703ACBC31C77938900E4583C /* btn_arw.png in Resources */ = {isa = PBXBuildFile; fileRef = 703ACBA71C77938900E4583C /* btn_arw.png */; };
+		703ACBC41C77938900E4583C /* btn_camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 703ACBA81C77938900E4583C /* btn_camera.png */; };
+		703ACBC51C77938900E4583C /* btn_close.png in Resources */ = {isa = PBXBuildFile; fileRef = 703ACBA91C77938900E4583C /* btn_close.png */; };
+		703ACBC61C77938900E4583C /* btn_facebok.png in Resources */ = {isa = PBXBuildFile; fileRef = 703ACBAA1C77938900E4583C /* btn_facebok.png */; };
+		703ACBC71C77938900E4583C /* btn_facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = 703ACBAB1C77938900E4583C /* btn_facebook.png */; };
+		703ACBC81C77938900E4583C /* btn_follow.png in Resources */ = {isa = PBXBuildFile; fileRef = 703ACBAC1C77938900E4583C /* btn_follow.png */; };
+		703ACBC91C77938900E4583C /* btn_followbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 703ACBAD1C77938900E4583C /* btn_followbutton.png */; };
+		703ACBCA1C77938900E4583C /* btn_followedripples.png in Resources */ = {isa = PBXBuildFile; fileRef = 703ACBAE1C77938900E4583C /* btn_followedripples.png */; };
+		703ACBCB1C77938900E4583C /* btn_login.png in Resources */ = {isa = PBXBuildFile; fileRef = 703ACBAF1C77938900E4583C /* btn_login.png */; };
+		703ACBCC1C77938900E4583C /* btn_pin.png in Resources */ = {isa = PBXBuildFile; fileRef = 703ACBB01C77938900E4583C /* btn_pin.png */; };
+		703ACBCD1C77938900E4583C /* btn_plus.png in Resources */ = {isa = PBXBuildFile; fileRef = 703ACBB11C77938900E4583C /* btn_plus.png */; };
+		703ACBCE1C77938900E4583C /* btn_scan.png in Resources */ = {isa = PBXBuildFile; fileRef = 703ACBB21C77938900E4583C /* btn_scan.png */; };
+		703ACBCF1C77938900E4583C /* btn_scanripple.png in Resources */ = {isa = PBXBuildFile; fileRef = 703ACBB31C77938900E4583C /* btn_scanripple.png */; };
+		703ACBD01C77938900E4583C /* btn_search.png in Resources */ = {isa = PBXBuildFile; fileRef = 703ACBB41C77938900E4583C /* btn_search.png */; };
+		703ACBD11C77938900E4583C /* btn_searchripple.png in Resources */ = {isa = PBXBuildFile; fileRef = 703ACBB51C77938900E4583C /* btn_searchripple.png */; };
+		703ACBD21C77938900E4583C /* btn_seephotos.png in Resources */ = {isa = PBXBuildFile; fileRef = 703ACBB61C77938900E4583C /* btn_seephotos.png */; };
+		703ACBD31C77938900E4583C /* btn_twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = 703ACBB71C77938900E4583C /* btn_twitter.png */; };
+		703ACBD41C77938900E4583C /* btn_unfollowbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 703ACBB81C77938900E4583C /* btn_unfollowbutton.png */; };
+		703ACBD51C77938900E4583C /* btn_uploadphoto.png in Resources */ = {isa = PBXBuildFile; fileRef = 703ACBB91C77938900E4583C /* btn_uploadphoto.png */; };
+		703ACBD61C77938900E4583C /* img_back.png in Resources */ = {isa = PBXBuildFile; fileRef = 703ACBBA1C77938900E4583C /* img_back.png */; };
+		703ACBD71C77938900E4583C /* img_bluecamera.png in Resources */ = {isa = PBXBuildFile; fileRef = 703ACBBB1C77938900E4583C /* img_bluecamera.png */; };
+		703ACBD81C77938900E4583C /* img_camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 703ACBBC1C77938900E4583C /* img_camera.png */; };
+		703ACBD91C77938900E4583C /* img_line.png in Resources */ = {isa = PBXBuildFile; fileRef = 703ACBBD1C77938900E4583C /* img_line.png */; };
+		703ACBDA1C77938900E4583C /* img_pin.png in Resources */ = {isa = PBXBuildFile; fileRef = 703ACBBE1C77938900E4583C /* img_pin.png */; };
+		703ACBDB1C77938900E4583C /* mark.png in Resources */ = {isa = PBXBuildFile; fileRef = 703ACBBF1C77938900E4583C /* mark.png */; };
+		7092B7B31C6CCDD900233042 /* ScannedController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7092B7B21C6CCDD900233042 /* ScannedController.swift */; };
+		70AD701E1C6B5F760073DE7A /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70AD701D1C6B5F760073DE7A /* Utils.swift */; };
+		70AD70201C6B789B0073DE7A /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70AD701F1C6B789B0073DE7A /* MainController.swift */; };
+		70AD70241C6B8AF40073DE7A /* ScanDialog.xib in Resources */ = {isa = PBXBuildFile; fileRef = 70AD70231C6B8AF40073DE7A /* ScanDialog.xib */; };
+		70AD705E1C6BA4560073DE7A /* ScanDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70AD705D1C6BA4560073DE7A /* ScanDialog.swift */; };
+		70D86AFC1C71F557007A6A55 /* PopularController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70D86AFB1C71F557007A6A55 /* PopularController.swift */; };
+		70D920D31C7437BE00D9FC78 /* RecentLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70D920D21C7437BE00D9FC78 /* RecentLog.swift */; };
+		70D920D51C7445C200D9FC78 /* RecentUpdates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70D920D41C7445C200D9FC78 /* RecentUpdates.swift */; };
+		70D920D81C74507F00D9FC78 /* MainCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70D920D71C74507F00D9FC78 /* MainCell.swift */; };
+		70E8A4381C7AF80B00EFE3E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70E8A4371C7AF80B00EFE3E4 /* Assets.xcassets */; };
+		70E8A43A1C7B047000EFE3E4 /* btn_where.png in Resources */ = {isa = PBXBuildFile; fileRef = 70E8A4391C7B047000EFE3E4 /* btn_where.png */; };
+		70E8A43C1C7B072C00EFE3E4 /* btn_camera1.png in Resources */ = {isa = PBXBuildFile; fileRef = 70E8A43B1C7B072C00EFE3E4 /* btn_camera1.png */; };
+		70E8A43E1C7B4F1700EFE3E4 /* ImageMainCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E8A43D1C7B4F1700EFE3E4 /* ImageMainCollectionCell.swift */; };
+		70EA26301C71FDB400258DD8 /* IndividualCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70EA262F1C71FDB400258DD8 /* IndividualCell.swift */; };
+		70EA26321C722A4600258DD8 /* PopularCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70EA26311C722A4600258DD8 /* PopularCell.swift */; };
+		70FEE0A91C6A515A00E05C9E /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70FEE0A81C6A515A00E05C9E /* LoginController.swift */; };
+		B73EA3BA1B6A488BBF49265F /* Pods_eduku.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 464786060904C88A027CD5F3 /* Pods_eduku.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7038153D1C64C25200A46674 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 703815201C64C25100A46674 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 703815271C64C25200A46674;
+			remoteInfo = eduku;
+		};
+		703815481C64C25200A46674 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 703815201C64C25100A46674 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 703815271C64C25200A46674;
+			remoteInfo = eduku;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		464786060904C88A027CD5F3 /* Pods_eduku.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_eduku.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7006CEBD1C802BBA003A8C7D /* img_none.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_none.png; sourceTree = "<group>"; };
+		700F7C501C7893EE008D046F /* CustomImageFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomImageFlowLayout.swift; sourceTree = "<group>"; };
+		700F7C521C7895C3008D046F /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		70106E011C6F0C5000CE1707 /* RippleLog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RippleLog.swift; sourceTree = "<group>"; };
+		70106E031C6F1D6F00CE1707 /* IndividualController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IndividualController.swift; path = eduku/Views/IndividualController.swift; sourceTree = SOURCE_ROOT; };
+		701561BB1C6A5A58007B7551 /* SignupController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupController.swift; sourceTree = "<group>"; };
+		702D846A1C6B183600AE33B6 /* UIHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
+		702D846C1C6B18D800AE33B6 /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		702D846E1C6B1C4900AE33B6 /* Global.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
+		702D84701C6B1CAD00AE33B6 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		7038152B1C64C25200A46674 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7038152D1C64C25200A46674 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		703815301C64C25200A46674 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		703815351C64C25200A46674 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		703815371C64C25200A46674 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		703815401C64C25200A46674 /* edukuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = edukuTests.swift; sourceTree = "<group>"; };
+		703815421C64C25200A46674 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7038154B1C64C25200A46674 /* edukuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = edukuUITests.swift; sourceTree = "<group>"; };
+		7038154D1C64C25200A46674 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		703ACBA41C77938900E4583C /* arrow_back_blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow_back_blue.png; sourceTree = "<group>"; };
+		703ACBA51C77938900E4583C /* arrow_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow_back.png; sourceTree = "<group>"; };
+		703ACBA61C77938900E4583C /* btn_arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_arrow.png; sourceTree = "<group>"; };
+		703ACBA71C77938900E4583C /* btn_arw.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_arw.png; sourceTree = "<group>"; };
+		703ACBA81C77938900E4583C /* btn_camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_camera.png; sourceTree = "<group>"; };
+		703ACBA91C77938900E4583C /* btn_close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_close.png; sourceTree = "<group>"; };
+		703ACBAA1C77938900E4583C /* btn_facebok.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_facebok.png; sourceTree = "<group>"; };
+		703ACBAB1C77938900E4583C /* btn_facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_facebook.png; sourceTree = "<group>"; };
+		703ACBAC1C77938900E4583C /* btn_follow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_follow.png; sourceTree = "<group>"; };
+		703ACBAD1C77938900E4583C /* btn_followbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_followbutton.png; sourceTree = "<group>"; };
+		703ACBAE1C77938900E4583C /* btn_followedripples.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_followedripples.png; sourceTree = "<group>"; };
+		703ACBAF1C77938900E4583C /* btn_login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_login.png; sourceTree = "<group>"; };
+		703ACBB01C77938900E4583C /* btn_pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_pin.png; sourceTree = "<group>"; };
+		703ACBB11C77938900E4583C /* btn_plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_plus.png; sourceTree = "<group>"; };
+		703ACBB21C77938900E4583C /* btn_scan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_scan.png; sourceTree = "<group>"; };
+		703ACBB31C77938900E4583C /* btn_scanripple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_scanripple.png; sourceTree = "<group>"; };
+		703ACBB41C77938900E4583C /* btn_search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_search.png; sourceTree = "<group>"; };
+		703ACBB51C77938900E4583C /* btn_searchripple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_searchripple.png; sourceTree = "<group>"; };
+		703ACBB61C77938900E4583C /* btn_seephotos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_seephotos.png; sourceTree = "<group>"; };
+		703ACBB71C77938900E4583C /* btn_twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_twitter.png; sourceTree = "<group>"; };
+		703ACBB81C77938900E4583C /* btn_unfollowbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_unfollowbutton.png; sourceTree = "<group>"; };
+		703ACBB91C77938900E4583C /* btn_uploadphoto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_uploadphoto.png; sourceTree = "<group>"; };
+		703ACBBA1C77938900E4583C /* img_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_back.png; sourceTree = "<group>"; };
+		703ACBBB1C77938900E4583C /* img_bluecamera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_bluecamera.png; sourceTree = "<group>"; };
+		703ACBBC1C77938900E4583C /* img_camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_camera.png; sourceTree = "<group>"; };
+		703ACBBD1C77938900E4583C /* img_line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_line.png; sourceTree = "<group>"; };
+		703ACBBE1C77938900E4583C /* img_pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_pin.png; sourceTree = "<group>"; };
+		703ACBBF1C77938900E4583C /* mark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mark.png; sourceTree = "<group>"; };
+		7092B7B21C6CCDD900233042 /* ScannedController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScannedController.swift; sourceTree = "<group>"; };
+		70AD701A1C6B5E110073DE7A /* Ripples of Hope.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ripples of Hope.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70AD701B1C6B5E110073DE7A /* Ripples of Hope.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ripples of Hope.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70AD701C1C6B5E110073DE7A /* Ripples of Hope.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ripples of Hope.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70AD701D1C6B5F760073DE7A /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		70AD701F1C6B789B0073DE7A /* MainController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainController.swift; path = eduku/Views/MainController.swift; sourceTree = SOURCE_ROOT; };
+		70AD70231C6B8AF40073DE7A /* ScanDialog.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScanDialog.xib; sourceTree = "<group>"; };
+		70AD705D1C6BA4560073DE7A /* ScanDialog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScanDialog.swift; sourceTree = "<group>"; };
+		70D86AFB1C71F557007A6A55 /* PopularController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PopularController.swift; path = eduku/Views/PopularController.swift; sourceTree = SOURCE_ROOT; };
+		70D920D21C7437BE00D9FC78 /* RecentLog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecentLog.swift; sourceTree = "<group>"; };
+		70D920D41C7445C200D9FC78 /* RecentUpdates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecentUpdates.swift; sourceTree = "<group>"; };
+		70D920D71C74507F00D9FC78 /* MainCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainCell.swift; sourceTree = "<group>"; };
+		70E8A4371C7AF80B00EFE3E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		70E8A4391C7B047000EFE3E4 /* btn_where.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_where.png; sourceTree = "<group>"; };
+		70E8A43B1C7B072C00EFE3E4 /* btn_camera1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_camera1.png; sourceTree = "<group>"; };
+		70E8A43D1C7B4F1700EFE3E4 /* ImageMainCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageMainCollectionCell.swift; sourceTree = "<group>"; };
+		70EA262F1C71FDB400258DD8 /* IndividualCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndividualCell.swift; sourceTree = "<group>"; };
+		70EA26311C722A4600258DD8 /* PopularCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopularCell.swift; sourceTree = "<group>"; };
+		70FEE0A81C6A515A00E05C9E /* LoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		B835FF3297EE63CD0D9E85B2 /* Pods-eduku.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eduku.debug.xcconfig"; path = "Pods/Target Support Files/Pods-eduku/Pods-eduku.debug.xcconfig"; sourceTree = "<group>"; };
+		D4CA324440B5163BC781393F /* Pods-eduku.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eduku.release.xcconfig"; path = "Pods/Target Support Files/Pods-eduku/Pods-eduku.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		703815251C64C25200A46674 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B73EA3BA1B6A488BBF49265F /* Pods_eduku.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		703815391C64C25200A46674 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		703815441C64C25200A46674 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		701561BD1C6A5DB0007B7551 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				702D846A1C6B183600AE33B6 /* UIHelper.swift */,
+				702D846C1C6B18D800AE33B6 /* Config.swift */,
+				702D846E1C6B1C4900AE33B6 /* Global.swift */,
+				70AD701D1C6B5F760073DE7A /* Utils.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		7038151F1C64C25100A46674 = {
+			isa = PBXGroup;
+			children = (
+				7038152A1C64C25200A46674 /* Ripples of Hope */,
+				7038153F1C64C25200A46674 /* edukuTests */,
+				7038154A1C64C25200A46674 /* edukuUITests */,
+				E1B49F513950F82DB6C239E8 /* Pods */,
+				70AD701A1C6B5E110073DE7A /* Ripples of Hope.app */,
+				70AD701B1C6B5E110073DE7A /* Ripples of Hope.xctest */,
+				70AD701C1C6B5E110073DE7A /* Ripples of Hope.xctest */,
+				BAC06B81B07703A4779CFDA3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7038152A1C64C25200A46674 /* Ripples of Hope */ = {
+			isa = PBXGroup;
+			children = (
+				701561BD1C6A5DB0007B7551 /* Utils */,
+				70FEE0AA1C6A517000E05C9E /* Models */,
+				70FEE0A71C6A515A00E05C9E /* Views */,
+				70E8A4371C7AF80B00EFE3E4 /* Assets.xcassets */,
+				7038152B1C64C25200A46674 /* AppDelegate.swift */,
+				7038152D1C64C25200A46674 /* ViewController.swift */,
+				7038152F1C64C25200A46674 /* Main.storyboard */,
+				703815341C64C25200A46674 /* LaunchScreen.storyboard */,
+				703815371C64C25200A46674 /* Info.plist */,
+				70AD70251C6BA2C90073DE7A /* Resources */,
+			);
+			name = "Ripples of Hope";
+			path = eduku;
+			sourceTree = "<group>";
+		};
+		7038153F1C64C25200A46674 /* edukuTests */ = {
+			isa = PBXGroup;
+			children = (
+				703815401C64C25200A46674 /* edukuTests.swift */,
+				703815421C64C25200A46674 /* Info.plist */,
+			);
+			path = edukuTests;
+			sourceTree = "<group>";
+		};
+		7038154A1C64C25200A46674 /* edukuUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7038154B1C64C25200A46674 /* edukuUITests.swift */,
+				7038154D1C64C25200A46674 /* Info.plist */,
+			);
+			path = edukuUITests;
+			sourceTree = "<group>";
+		};
+		70AD70221C6B8ADF0073DE7A /* ScanDialog */ = {
+			isa = PBXGroup;
+			children = (
+				70AD70231C6B8AF40073DE7A /* ScanDialog.xib */,
+				70AD705D1C6BA4560073DE7A /* ScanDialog.swift */,
+			);
+			path = ScanDialog;
+			sourceTree = "<group>";
+		};
+		70AD70251C6BA2C90073DE7A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7006CEBD1C802BBA003A8C7D /* img_none.png */,
+				70E8A43B1C7B072C00EFE3E4 /* btn_camera1.png */,
+				70E8A4391C7B047000EFE3E4 /* btn_where.png */,
+				703ACBA41C77938900E4583C /* arrow_back_blue.png */,
+				703ACBA51C77938900E4583C /* arrow_back.png */,
+				703ACBA61C77938900E4583C /* btn_arrow.png */,
+				703ACBA71C77938900E4583C /* btn_arw.png */,
+				703ACBA81C77938900E4583C /* btn_camera.png */,
+				703ACBA91C77938900E4583C /* btn_close.png */,
+				703ACBAA1C77938900E4583C /* btn_facebok.png */,
+				703ACBAB1C77938900E4583C /* btn_facebook.png */,
+				703ACBAC1C77938900E4583C /* btn_follow.png */,
+				703ACBAD1C77938900E4583C /* btn_followbutton.png */,
+				703ACBAE1C77938900E4583C /* btn_followedripples.png */,
+				703ACBAF1C77938900E4583C /* btn_login.png */,
+				703ACBB01C77938900E4583C /* btn_pin.png */,
+				703ACBB11C77938900E4583C /* btn_plus.png */,
+				703ACBB21C77938900E4583C /* btn_scan.png */,
+				703ACBB31C77938900E4583C /* btn_scanripple.png */,
+				703ACBB41C77938900E4583C /* btn_search.png */,
+				703ACBB51C77938900E4583C /* btn_searchripple.png */,
+				703ACBB61C77938900E4583C /* btn_seephotos.png */,
+				703ACBB71C77938900E4583C /* btn_twitter.png */,
+				703ACBB81C77938900E4583C /* btn_unfollowbutton.png */,
+				703ACBB91C77938900E4583C /* btn_uploadphoto.png */,
+				703ACBBA1C77938900E4583C /* img_back.png */,
+				703ACBBB1C77938900E4583C /* img_bluecamera.png */,
+				703ACBBC1C77938900E4583C /* img_camera.png */,
+				703ACBBD1C77938900E4583C /* img_line.png */,
+				703ACBBE1C77938900E4583C /* img_pin.png */,
+				703ACBBF1C77938900E4583C /* mark.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		70D920D61C74506900D9FC78 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				70AD701F1C6B789B0073DE7A /* MainController.swift */,
+				70D920D71C74507F00D9FC78 /* MainCell.swift */,
+				70E8A43D1C7B4F1700EFE3E4 /* ImageMainCollectionCell.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		70EA262D1C71FD7E00258DD8 /* Popular */ = {
+			isa = PBXGroup;
+			children = (
+				70D86AFB1C71F557007A6A55 /* PopularController.swift */,
+				70EA26311C722A4600258DD8 /* PopularCell.swift */,
+			);
+			path = Popular;
+			sourceTree = "<group>";
+		};
+		70EA262E1C71FD8A00258DD8 /* Individual */ = {
+			isa = PBXGroup;
+			children = (
+				70106E031C6F1D6F00CE1707 /* IndividualController.swift */,
+				70EA262F1C71FDB400258DD8 /* IndividualCell.swift */,
+				700F7C501C7893EE008D046F /* CustomImageFlowLayout.swift */,
+				700F7C521C7895C3008D046F /* ImageCollectionViewCell.swift */,
+			);
+			path = Individual;
+			sourceTree = "<group>";
+		};
+		70FEE0A71C6A515A00E05C9E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				70D920D61C74506900D9FC78 /* Main */,
+				70EA262E1C71FD8A00258DD8 /* Individual */,
+				70EA262D1C71FD7E00258DD8 /* Popular */,
+				70AD70221C6B8ADF0073DE7A /* ScanDialog */,
+				70FEE0A81C6A515A00E05C9E /* LoginController.swift */,
+				701561BB1C6A5A58007B7551 /* SignupController.swift */,
+				7092B7B21C6CCDD900233042 /* ScannedController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		70FEE0AA1C6A517000E05C9E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				702D84701C6B1CAD00AE33B6 /* User.swift */,
+				70106E011C6F0C5000CE1707 /* RippleLog.swift */,
+				70D920D21C7437BE00D9FC78 /* RecentLog.swift */,
+				70D920D41C7445C200D9FC78 /* RecentUpdates.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BAC06B81B07703A4779CFDA3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				464786060904C88A027CD5F3 /* Pods_eduku.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E1B49F513950F82DB6C239E8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B835FF3297EE63CD0D9E85B2 /* Pods-eduku.debug.xcconfig */,
+				D4CA324440B5163BC781393F /* Pods-eduku.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		703815271C64C25200A46674 /* Ripples of Hope */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 703815501C64C25200A46674 /* Build configuration list for PBXNativeTarget "Ripples of Hope" */;
+			buildPhases = (
+				143AB04435483523C8C9E1F2 /* Check Pods Manifest.lock */,
+				703815241C64C25200A46674 /* Sources */,
+				703815251C64C25200A46674 /* Frameworks */,
+				703815261C64C25200A46674 /* Resources */,
+				864EEA46AF4E08700BC934C8 /* Embed Pods Frameworks */,
+				532AC4FBD94E666643B7DAC0 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ripples of Hope";
+			productName = eduku;
+			productReference = 70AD701A1C6B5E110073DE7A /* Ripples of Hope.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7038153B1C64C25200A46674 /* Ripples of HopeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 703815531C64C25200A46674 /* Build configuration list for PBXNativeTarget "Ripples of HopeTests" */;
+			buildPhases = (
+				703815381C64C25200A46674 /* Sources */,
+				703815391C64C25200A46674 /* Frameworks */,
+				7038153A1C64C25200A46674 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7038153E1C64C25200A46674 /* PBXTargetDependency */,
+			);
+			name = "Ripples of HopeTests";
+			productName = edukuTests;
+			productReference = 70AD701B1C6B5E110073DE7A /* Ripples of Hope.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		703815461C64C25200A46674 /* Ripples of HopeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 703815561C64C25200A46674 /* Build configuration list for PBXNativeTarget "Ripples of HopeUITests" */;
+			buildPhases = (
+				703815431C64C25200A46674 /* Sources */,
+				703815441C64C25200A46674 /* Frameworks */,
+				703815451C64C25200A46674 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				703815491C64C25200A46674 /* PBXTargetDependency */,
+			);
+			name = "Ripples of HopeUITests";
+			productName = edukuUITests;
+			productReference = 70AD701C1C6B5E110073DE7A /* Ripples of Hope.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		703815201C64C25100A46674 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Mickey;
+				TargetAttributes = {
+					703815271C64C25200A46674 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = MG26VQ5J87;
+					};
+					7038153B1C64C25200A46674 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 703815271C64C25200A46674;
+					};
+					703815461C64C25200A46674 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 703815271C64C25200A46674;
+					};
+				};
+			};
+			buildConfigurationList = 703815231C64C25100A46674 /* Build configuration list for PBXProject "Ripples of Hope" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7038151F1C64C25100A46674;
+			productRefGroup = 7038151F1C64C25100A46674;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				703815271C64C25200A46674 /* Ripples of Hope */,
+				7038153B1C64C25200A46674 /* Ripples of HopeTests */,
+				703815461C64C25200A46674 /* Ripples of HopeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		703815261C64C25200A46674 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70AD70241C6B8AF40073DE7A /* ScanDialog.xib in Resources */,
+				70E8A43C1C7B072C00EFE3E4 /* btn_camera1.png in Resources */,
+				703ACBC21C77938900E4583C /* btn_arrow.png in Resources */,
+				703ACBC61C77938900E4583C /* btn_facebok.png in Resources */,
+				703ACBD91C77938900E4583C /* img_line.png in Resources */,
+				703ACBC41C77938900E4583C /* btn_camera.png in Resources */,
+				703ACBC81C77938900E4583C /* btn_follow.png in Resources */,
+				7006CEBE1C802BBA003A8C7D /* img_none.png in Resources */,
+				703ACBDB1C77938900E4583C /* mark.png in Resources */,
+				703ACBC71C77938900E4583C /* btn_facebook.png in Resources */,
+				703ACBD11C77938900E4583C /* btn_searchripple.png in Resources */,
+				703ACBD41C77938900E4583C /* btn_unfollowbutton.png in Resources */,
+				703ACBC51C77938900E4583C /* btn_close.png in Resources */,
+				703815361C64C25200A46674 /* LaunchScreen.storyboard in Resources */,
+				703ACBD51C77938900E4583C /* btn_uploadphoto.png in Resources */,
+				703ACBC31C77938900E4583C /* btn_arw.png in Resources */,
+				703ACBCC1C77938900E4583C /* btn_pin.png in Resources */,
+				703ACBC91C77938900E4583C /* btn_followbutton.png in Resources */,
+				703ACBD71C77938900E4583C /* img_bluecamera.png in Resources */,
+				703ACBD21C77938900E4583C /* btn_seephotos.png in Resources */,
+				703ACBCA1C77938900E4583C /* btn_followedripples.png in Resources */,
+				703ACBCF1C77938900E4583C /* btn_scanripple.png in Resources */,
+				703ACBD31C77938900E4583C /* btn_twitter.png in Resources */,
+				703ACBCB1C77938900E4583C /* btn_login.png in Resources */,
+				703ACBC01C77938900E4583C /* arrow_back_blue.png in Resources */,
+				70E8A43A1C7B047000EFE3E4 /* btn_where.png in Resources */,
+				703ACBCE1C77938900E4583C /* btn_scan.png in Resources */,
+				703ACBDA1C77938900E4583C /* img_pin.png in Resources */,
+				703ACBD01C77938900E4583C /* btn_search.png in Resources */,
+				703ACBD81C77938900E4583C /* img_camera.png in Resources */,
+				703ACBC11C77938900E4583C /* arrow_back.png in Resources */,
+				703ACBCD1C77938900E4583C /* btn_plus.png in Resources */,
+				703815311C64C25200A46674 /* Main.storyboard in Resources */,
+				70E8A4381C7AF80B00EFE3E4 /* Assets.xcassets in Resources */,
+				703ACBD61C77938900E4583C /* img_back.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7038153A1C64C25200A46674 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		703815451C64C25200A46674 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		143AB04435483523C8C9E1F2 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		532AC4FBD94E666643B7DAC0 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-eduku/Pods-eduku-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		864EEA46AF4E08700BC934C8 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-eduku/Pods-eduku-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		703815241C64C25200A46674 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7038152E1C64C25200A46674 /* ViewController.swift in Sources */,
+				70FEE0A91C6A515A00E05C9E /* LoginController.swift in Sources */,
+				70D86AFC1C71F557007A6A55 /* PopularController.swift in Sources */,
+				700F7C511C7893EE008D046F /* CustomImageFlowLayout.swift in Sources */,
+				70AD701E1C6B5F760073DE7A /* Utils.swift in Sources */,
+				7038152C1C64C25200A46674 /* AppDelegate.swift in Sources */,
+				70D920D31C7437BE00D9FC78 /* RecentLog.swift in Sources */,
+				70106E041C6F1D6F00CE1707 /* IndividualController.swift in Sources */,
+				70D920D51C7445C200D9FC78 /* RecentUpdates.swift in Sources */,
+				70106E021C6F0C5000CE1707 /* RippleLog.swift in Sources */,
+				70EA26321C722A4600258DD8 /* PopularCell.swift in Sources */,
+				70AD70201C6B789B0073DE7A /* MainController.swift in Sources */,
+				70E8A43E1C7B4F1700EFE3E4 /* ImageMainCollectionCell.swift in Sources */,
+				700F7C531C7895C3008D046F /* ImageCollectionViewCell.swift in Sources */,
+				70EA26301C71FDB400258DD8 /* IndividualCell.swift in Sources */,
+				702D846B1C6B183600AE33B6 /* UIHelper.swift in Sources */,
+				7092B7B31C6CCDD900233042 /* ScannedController.swift in Sources */,
+				70D920D81C74507F00D9FC78 /* MainCell.swift in Sources */,
+				70AD705E1C6BA4560073DE7A /* ScanDialog.swift in Sources */,
+				702D84711C6B1CAD00AE33B6 /* User.swift in Sources */,
+				701561BC1C6A5A58007B7551 /* SignupController.swift in Sources */,
+				702D846D1C6B18D800AE33B6 /* Config.swift in Sources */,
+				702D846F1C6B1C4900AE33B6 /* Global.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		703815381C64C25200A46674 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				703815411C64C25200A46674 /* edukuTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		703815431C64C25200A46674 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7038154C1C64C25200A46674 /* edukuUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7038153E1C64C25200A46674 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 703815271C64C25200A46674 /* Ripples of Hope */;
+			targetProxy = 7038153D1C64C25200A46674 /* PBXContainerItemProxy */;
+		};
+		703815491C64C25200A46674 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 703815271C64C25200A46674 /* Ripples of Hope */;
+			targetProxy = 703815481C64C25200A46674 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7038152F1C64C25200A46674 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				703815301C64C25200A46674 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		703815341C64C25200A46674 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				703815351C64C25200A46674 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7038154E1C64C25200A46674 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7038154F1C64C25200A46674 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		703815511C64C25200A46674 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B835FF3297EE63CD0D9E85B2 /* Pods-eduku.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COMPRESS_PNG_FILES = YES;
+				INFOPLIST_FILE = eduku/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = eduku.org;
+				PRODUCT_NAME = "Ripples of Hope";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		703815521C64C25200A46674 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4CA324440B5163BC781393F /* Pods-eduku.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COMPRESS_PNG_FILES = YES;
+				INFOPLIST_FILE = eduku/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = eduku.org;
+				PRODUCT_NAME = "Ripples of Hope";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		703815541C64C25200A46674 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = edukuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Eduku.org.edukuTests;
+				PRODUCT_NAME = "Ripples of Hope";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ripples of Hope.app/Ripples of Hope";
+			};
+			name = Debug;
+		};
+		703815551C64C25200A46674 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = edukuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Eduku.org.edukuTests;
+				PRODUCT_NAME = "Ripples of Hope";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ripples of Hope.app/Ripples of Hope";
+			};
+			name = Release;
+		};
+		703815571C64C25200A46674 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = edukuUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Eduku.org.edukuUITests;
+				PRODUCT_NAME = "Ripples of Hope";
+				TEST_TARGET_NAME = eduku;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		703815581C64C25200A46674 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = edukuUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Eduku.org.edukuUITests;
+				PRODUCT_NAME = "Ripples of Hope";
+				TEST_TARGET_NAME = eduku;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		703815231C64C25100A46674 /* Build configuration list for PBXProject "Ripples of Hope" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7038154E1C64C25200A46674 /* Debug */,
+				7038154F1C64C25200A46674 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		703815501C64C25200A46674 /* Build configuration list for PBXNativeTarget "Ripples of Hope" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				703815511C64C25200A46674 /* Debug */,
+				703815521C64C25200A46674 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		703815531C64C25200A46674 /* Build configuration list for PBXNativeTarget "Ripples of HopeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				703815541C64C25200A46674 /* Debug */,
+				703815551C64C25200A46674 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		703815561C64C25200A46674 /* Build configuration list for PBXNativeTarget "Ripples of HopeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				703815571C64C25200A46674 /* Debug */,
+				703815581C64C25200A46674 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 703815201C64C25100A46674 /* Project object */;
+}

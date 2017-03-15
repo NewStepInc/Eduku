@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:id="@+id/main_lay1"
+        android:layout_width="match_parent"
+        android:background="@drawable/img_back"
+        android:layout_height="218sp"
+        android:layout_alignParentBottom="false"
+        android:layout_alignParentTop="true">
+        <ImageView
+            android:id="@+id/btn_scanripple"
+            android:layout_width="130sp"
+            android:layout_height="130sp"
+            android:src="@drawable/btn_scanripple"
+            android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <LinearLayout
+        android:id="@+id/main_lay2"
+        android:layout_width="match_parent"
+        android:layout_below="@id/main_lay1"
+        android:weightSum="2"
+        android:layout_height="78sp">
+        <ImageView
+            android:id="@+id/btn_search"
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scaleType="centerCrop"
+            android:layout_marginEnd="1sp"
+            android:src="@drawable/btn_searchripple"/>
+        <ImageView
+            android:id="@+id/btn_follow"
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scaleType="centerCrop"
+            android:src="@drawable/btn_followedripples"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/main_lay3"
+        android:layout_width="wrap_content"
+        android:layout_below="@id/main_lay2"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="19sp"
+            android:textColor="#000000"
+            android:text="RECENT UPDATES"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15sp"
+            android:textSize="16sp"
+            android:text="BY BLUEMAX"
+            android:textColor="@color/blue"
+            android:textStyle="bold|italic" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/main_list"
+        android:layout_width="275sp"
+        android:layout_above="@+id/main_lay4"
+        android:layout_below="@id/main_lay3"
+        android:layout_centerHorizontal="true"
+        android:listSelector="@android:color/transparent"
+        android:layout_height="match_parent"/>
+
+    <LinearLayout
+        android:id="@id/main_lay4"
+        android:layout_width="wrap_content"
+        android:layout_above="@+id/main_grid"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="19sp"
+            android:textColor="#000000"
+            android:text="RECENT PHOTOS"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15sp"
+            android:textSize="16sp"
+            android:text="BY BLUEMAX"
+            android:textColor="@color/blue"
+            android:textStyle="bold|italic"/>
+    </LinearLayout>
+
+    <mobi.parchment.widget.adapterview.gridview.GridView
+        xmlns:parchment="http://schemas.android.com/apk/res/eduku.org"
+        android:id="@id/main_grid"
+        android:layout_width="match_parent"
+        android:layout_height="70sp"
+        android:layout_alignParentBottom="true"
+        android:scrollbars="horizontal"
+        android:scrollbarAlwaysDrawHorizontalTrack="false"
+        android:scrollbarAlwaysDrawVerticalTrack="false"
+        android:clipToPadding="false"
+        parchment:isViewPager="false"
+        parchment:orientation="horizontal"
+        parchment:cellSpacing="2sp"
+        parchment:isCircularScroll="false"
+        parchment:snapPosition="start"
+        parchment:snapToPosition="false" />
+</RelativeLayout>

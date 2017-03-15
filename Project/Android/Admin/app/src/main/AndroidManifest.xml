@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.bluemax.bluemaxmng">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name=".BlueMaxMngApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.parse.APPLICATION_ID"
+            android:value="Wbeuezf8BCeWP75oAz5TDkAFwyvRMeP4Y8V0Q5w6" />
+        <meta-data
+            android:name="com.parse.CLIENT_KEY"
+            android:value="Wt9Nn1NuqBQzdE3blTY3HccSomE5dv6DprQqS7I3" />
+
+        <activity
+            android:name=".activities.CampaignMainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.CampaignDetailActivity"
+            android:label="CampaignDetail" />
+        <activity
+            android:name=".activities.RippleActivity"
+            android:label="Ripples" />
+        <activity android:name=".activities.RippleDetailActivity"
+            android:label="RippleDetail"/>
+        <activity
+            android:name=".activities.PhotoActivity"
+            android:label="Photos" />
+    </application>
+
+</manifest>

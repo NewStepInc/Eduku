@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Ripples of Hope</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="parse_app_id">Wbeuezf8BCeWP75oAz5TDkAFwyvRMeP4Y8V0Q5w6</string>
+    <string name="parse_client_key">Wt9Nn1NuqBQzdE3blTY3HccSomE5dv6DprQqS7I3</string>
+    <string name="facebook_app_id">179551435751700</string>
+</resources>

@@ -1,0 +1,44 @@
+PODS:
+  - Bolts (1.6.0):
+    - Bolts/AppLinks (= 1.6.0)
+    - Bolts/Tasks (= 1.6.0)
+  - Bolts/AppLinks (1.6.0):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.6.0)
+  - Dodo (2.0.13)
+  - FBSDKCoreKit (4.9.1):
+    - Bolts (~> 1.5)
+  - FBSDKLoginKit (4.9.1):
+    - FBSDKCoreKit
+  - IQKeyboardManagerSwift (3.3.7)
+  - M13ProgressSuite (1.2.7)
+  - Parse (1.12.0):
+    - Bolts/Tasks (~> 1.5)
+  - ParseFacebookUtilsV4 (1.11.0):
+    - Bolts/Tasks (>= 1.5)
+    - FBSDKCoreKit (~> 4.9.0-beta)
+    - FBSDKLoginKit (~> 4.9.0-beta)
+    - FBSDKTVOSKit (~> 4.9.0-beta)
+    - Parse (~> 1.11)
+  - QRCodeReader.swift (5.3.1)
+
+DEPENDENCIES:
+  - Dodo
+  - IQKeyboardManagerSwift
+  - M13ProgressSuite
+  - Parse
+  - ParseFacebookUtilsV4
+  - QRCodeReader.swift
+
+SPEC CHECKSUMS:
+  Bolts: f52a250053bb517ca874523c3913776359ab3def
+  Dodo: 0d783bc1f55e59d53fb698b3380ad8553079540e
+  FBSDKCoreKit: aee20b6d9855f15b618d4fddd1a5ad45f5a4a59d
+  FBSDKLoginKit: ec22dc49bd372b064e93d6773df4ffefb3a552a2
+  IQKeyboardManagerSwift: 7d06186460470f3f7e767630861a1303980ee5cf
+  M13ProgressSuite: 03d194af6359da440641ba758aed5a18b0386a86
+  Parse: de2c52a9a1421b91ae7594ab8ce191afd184f19b
+  ParseFacebookUtilsV4: 216e03bd560404eed09a4875c75f0c1cdf758070
+  QRCodeReader.swift: 6aa05e4b9123f5bbbe1e7f1d5df28d590cc56775
+
+COCOAPODS: 0.39.0

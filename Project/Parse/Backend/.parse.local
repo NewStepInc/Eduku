@@ -1,0 +1,10 @@
+{
+  "applications": {
+    "BlueMax": {
+      "applicationId": "Wbeuezf8BCeWP75oAz5TDkAFwyvRMeP4Y8V0Q5w6"
+    },
+    "_default": {
+      "link": "BlueMax"
+    }
+  }
+}

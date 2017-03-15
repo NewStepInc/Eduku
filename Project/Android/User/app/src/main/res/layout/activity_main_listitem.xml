@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:id="@+id/main_content"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/main_list_back"
+            android:layout_width="38sp"
+            android:background="@drawable/btn_plus"
+            android:layout_marginTop="3sp"
+            android:layout_height="38sp" />
+        <TextView
+            android:id="@+id/txtRipple"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5sp"
+            android:layout_toEndOf="@id/main_list_back"
+            android:text="BEIJING INTERNATIONAL / #123456"/>
+        <ImageView
+            android:id="@+id/main_list_arrow"
+            android:layout_width="40sp"
+            android:background="@drawable/btn_arrow"
+            android:layout_toEndOf="@+id/txtSenderName"
+            android:layout_below="@id/txtRipple"
+            android:layout_marginTop="9sp"
+            android:layout_height="13sp" />
+        <TextView
+            android:id="@id/txtSenderName"
+            android:layout_width="90sp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtRipple"
+            android:layout_toEndOf="@id/main_list_back"
+            android:layout_marginTop="1sp"
+            android:layout_marginStart="5sp"
+            android:textColor="@color/blue"
+            android:text="JOSHUA"
+            android:textStyle="bold|italic" />
+        <TextView
+            android:id="@+id/txtSenderCity"
+            android:layout_width="90sp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtSenderName"
+            android:layout_toEndOf="@id/main_list_back"
+            android:layout_marginStart="5sp"
+            android:layout_marginTop="1sp"
+            android:textColor="@color/blue"
+            android:text="NANJING" />
+        <TextView
+            android:id="@+id/txtRecipientName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/main_list_arrow"
+            android:layout_below="@id/txtRipple"
+            android:layout_marginTop="1sp"
+            android:layout_marginStart="10sp"
+            android:textColor="@color/blue"
+            android:text="JOSHUA"
+            android:textStyle="bold|italic" />
+        <TextView
+            android:id="@+id/txtRecipientCity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/main_list_arrow"
+            android:layout_below="@id/txtSenderName"
+            android:layout_marginStart="10sp"
+            android:layout_marginTop="1sp"
+            android:textColor="@color/blue"
+            android:text="NANJING" />
+    </RelativeLayout>
+    <ProgressBar
+        android:id="@+id/progBar"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>

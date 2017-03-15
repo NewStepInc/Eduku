@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "MainController.GetPhotoFromFile([PFObject], _index : Int) -&gt; ():MainController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "_objects.count">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "User.save() -&gt; ():User.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "followRipples">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "MainController.(GetPhotoFromFile(MainController) -&gt; ([PFObject], _index : Int) -&gt; ()).(closure #1):MainController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.imageArray">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ScannedController.viewWillAppear(Bool) -&gt; ():ScannedController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.navigationController!.navigationItem.backBarButtonItem">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "PopularController.onBtnPinClicked(UIButton) -&gt; ():PopularController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "bPhoto">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[FBSDKURLConnection connectionDidFinishLoading:]:FBSDKURLConnection.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.handler">
+            </PersistentString>
+            <PersistentString
+               value = "self.data">
+            </PersistentString>
+            <PersistentString
+               value = "self.response">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ScannedController.onGoClicked(AnyObject) -&gt; ():ScannedController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "">
+            </PersistentString>
+            <PersistentString
+               value = "txtEmail.text?.characters">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ScanDialog.didMoveToSuperview() -&gt; ():ScanDialog.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "parent">
+            </PersistentString>
+            <PersistentString
+               value = "(parent as! MainController).txtQrcode">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "MainController.refreshCollectionView() -&gt; ():MainController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "colView.frame">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "LoginController.(getTwitterUserInfo(LoginController) -&gt; () -&gt; ()).(closure #1):LoginController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "JSONDictionary[&quot;first_name&quot;] as! String">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "MainController.viewDidLoad() -&gt; ():MainController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "colView.frame">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "RecentUpdates.save() -&gt; ():RecentUpdates.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "recentLog[0]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "MainController.(viewDidAppear(MainController) -&gt; (Bool) -&gt; ()).(closure #1):MainController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "objects.count">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "MainController.viewDidAppear(Bool) -&gt; ():MainController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "bAppear">
+            </PersistentString>
+            <PersistentString
+               value = "colView.frame">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Ripple.(init(Ripple.Type) -&gt; (_object : PFObject, _callback : () -&gt; ()) -&gt; Ripple).(closure #2):PopularController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "er == nil">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "PopularController.tableView(UITableView, numberOfRowsInSection : Int) -&gt; Int:PopularController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "m_followArray">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "IndividualController.viewDidLoad() -&gt; ():IndividualController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "m_Ripple.objectId">
+            </PersistentString>
+            <PersistentString
+               value = "object.objectId">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CustomImageFlowLayout.itemSize.getter:CustomImageFlowLayout.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "CGRectGetWidth(self.collectionView!.frame)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "PopularController.filterContentForSearchText(String, scope : String) -&gt; ():PopularController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "filterTemple">
+            </PersistentString>
+            <PersistentString
+               value = "filteredRipples">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "LoginController.(getUserInfo(LoginController) -&gt; () -&gt; ()).(closure #1):LoginController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "Global.currentUser">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "PopularController.(filterContentForSearchText(PopularController) -&gt; (String, scope : String) -&gt; ()).(closure #1):PopularController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.filteredRipples">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "PopularController.tableView(UITableView, cellForRowAtIndexPath : NSIndexPath) -&gt; UITableViewCell:PopularController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "tblCount">
+            </PersistentString>
+            <PersistentString
+               value = "cell.txtRippleName.text">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "User.init(_user : PFUser) -&gt; User:User.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "followRipples">
+            </PersistentString>
+            <PersistentString
+               value = "email">
+            </PersistentString>
+            <PersistentString
+               value = "username">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SignupController.onSignupClicked(AnyObject) -&gt; ():SignupController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "user.ACL">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "IndividualController.tableView(UITableView, cellForRowAtIndexPath : NSIndexPath) -&gt; UITableViewCell:IndividualController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "m_logArray[row][&quot;SenderName&quot;]">
+            </PersistentString>
+            <PersistentString
+               value = "m_logArray[row]">
+            </PersistentString>
+            <PersistentString
+               value = "m_logArray[row].SenderName">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ScannedController.imagePickerController(UIImagePickerController, didFinishPickingMediaWithInfo : [String : AnyObject]) -&gt; ():ScannedController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "imagePhoto">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "PopularController.viewDidLoad() -&gt; ():PopularController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "ripples">
+            </PersistentString>
+            <PersistentString
+               value = "filterTemple">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "MainController.collectionView(UICollectionView, cellForItemAtIndexPath : NSIndexPath) -&gt; UICollectionViewCell:MainController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "imageArray.count">
+            </PersistentString>
+            <PersistentString
+               value = "colCount">
+            </PersistentString>
+            <PersistentString
+               value = "indexPath.row">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "IndividualController.tableView(UITableView, numberOfRowsInSection : Int) -&gt; Int:IndividualController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "m_logArray.count">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ScannedController.(onSendRippleClicked(ScannedController) -&gt; (AnyObject) -&gt; ()).(closure #1).(closure #1):ScannedController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "">
+            </PersistentString>
+            <PersistentString
+               value = "response.success">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "IndividualController.onFollowClicked(AnyObject) -&gt; ():IndividualController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "Global.currentUser.followRipples">
+            </PersistentString>
+            <PersistentString
+               value = "m_scannedRipple[ParseRipple.RippleId.rawValue] as! String">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "IndividualController.collectionView(UICollectionView, cellForItemAtIndexPath : NSIndexPath) -&gt; UICollectionViewCell:IndividualController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "colCount">
+            </PersistentString>
+            <PersistentString
+               value = "cell.imageView.frame.width">
+            </PersistentString>
+            <PersistentString
+               value = "imageArray.count">
+            </PersistentString>
+            <PersistentString
+               value = "cell.imageView.frame.height">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "static Utils.getArrayFromJson(String) -&gt; NSMutableArray:Utils.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "json[RippleLogKeys.Date.rawValue] as! NSDate">
+            </PersistentString>
+            <PersistentString
+               value = "json[RippleLogKeys.Date.rawValue]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ScannedController.SendRipple() -&gt; ():ScannedController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "file">
+            </PersistentString>
+            <PersistentString
+               value = "imageData">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "MainController.(onTapOk(MainController) -&gt; (String) -&gt; ()).(closure #1):MainController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "Global.currentUser.userId">
+            </PersistentString>
+            <PersistentString
+               value = "">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "IndividualController.(viewDidLoad(IndividualController) -&gt; () -&gt; ()).(closure #1):IndividualController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "object">
+            </PersistentString>
+            <PersistentString
+               value = "self.imageArray">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "IndividualController.onBackClicked(AnyObject) -&gt; ():IndividualController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "MainController.tableView(UITableView, numberOfRowsInSection : Int) -&gt; Int:MainController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "Global.recentUpdates">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ScannedController.(SendRipple(ScannedController) -&gt; () -&gt; ()).(closure #1):ScannedController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "response as! String">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "MainController.collectionView(UICollectionView, numberOfItemsInSection : Int) -&gt; Int:MainController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "colCount">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "LoginController.(onFacebookClicked(LoginController) -&gt; (AnyObject) -&gt; ()).(closure #1):LoginController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "Global.currentUser.email">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "IndividualController.(viewDidAppear(IndividualController) -&gt; (Bool) -&gt; ()).(closure #1):IndividualController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.colCount">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "static Utils.getJsonFromArray(NSMutableArray) -&gt; String:Utils.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "info">
+            </PersistentString>
+            <PersistentString
+               value = "array[0]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "IndividualController.collectionView(UICollectionView, numberOfItemsInSection : Int) -&gt; Int:IndividualController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "colCount">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SignupController.(onSignupClicked(SignupController) -&gt; (AnyObject) -&gt; ()).(closure #1):SignupController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "user.ACL">
+            </PersistentString>
+            <PersistentString
+               value = "error!.localizedDescription">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
